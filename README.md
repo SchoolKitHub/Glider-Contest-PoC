@@ -92,7 +92,7 @@ Test result: ok. 1 passed; 0 failed; 0 skipped; finished in 7.4s
 
 ## Optional Impact Context
 
-If run against high-value targets (as filtered by your Glider query), an attacker gaining admin via these functions could:
+If run against high-value targets (as filtered by Glider query), an attacker gaining admin via these functions could:
 - Seize DEFAULT_ADMIN_ROLE and escalate privileges, potentially draining tokens via privileged calls.
 - Lock operators out by resetting roles, pausing systems, or changing upgrade paths.
 
